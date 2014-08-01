@@ -11,6 +11,10 @@ GitHub is a popular developer tool, and we want you to be familiar with it. GA i
 
 See "How do I use GitHub" below for instructions.
 
+## Installing Software
+
+Read the [Installation Instructions](INSTALL.md) for guidance on installing the necessary software.
+
 ##How Do I Submit Homework?
 
 Go to the [homework repository](https://github.com/ga-students/BEWD_SF_3_homework) and follow the instructions there.

@@ -17,7 +17,7 @@ Read the [Installation Instructions](INSTALL.md) for guidance on installing the 
 
 ##How Do I Submit Homework?
 
-Go to the [homework repository](https://github.com/ga-students/BEWD_SF_3_homework) and follow the instructions there.
+Go to the [homework repository](https://github.com/ga-students/BEWD_SF_5_homework) and follow the instructions there.
 
 ###What's in a lesson folder?
 
@@ -64,7 +64,7 @@ During the first lesson, you should make a copy of this repo for your own person
 From the terminal, clone by typing:
 
 ```bash
-git clone https://github.com/<YOUR USERNAME>/BEWD_SF_3.git
+git clone https://github.com/<YOUR USERNAME>/BEWD_SF_5.git
 ```
 
 In addition, you should create a link to the instructor's copy on GitHub (add an upstream remote) so that you can download the latest version of your materials.
@@ -72,7 +72,7 @@ In addition, you should create a link to the instructor's copy on GitHub (add an
 From the terminal, add an upstream remote by typing:
 
 ```bash
-git remote add upstream https://github.com/ga-students/BEWD_SF_3.git 
+git remote add upstream https://github.com/ga-students/BEWD_SF_5.git 
 ```
 
 Verify you added both remotes by typing:

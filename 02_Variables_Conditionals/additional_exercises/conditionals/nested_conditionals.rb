@@ -19,13 +19,20 @@ programs_number = 3
 #    Ask the User, "What day of the week am I thinking of?" and capture
 #    their input in the variable `guess`.
 
+#puts 'What day of the week am I thinking of?'
+#guess = gets.chomp.downcase
+
 
 
 # 2. By default, `programs_day_of_week` is set to Tuesday. Let's compare
 #    our variable to what the User inputted. If they got it right, tell
 #    them "Correct!" otherwise tell them "Wrong!"
 
-
+#if guess == programs_day_of_week
+#	puts 'Correct!'
+#else
+#	puts 'Wrong!'
+#end
 
 # 3. Now let's try seeing if two things are true at the same time.
 #
@@ -42,9 +49,34 @@ programs_number = 3
 #
 #    Otherwise, tell them "Wrong!"
 
+#puts 'What day of the week am I thinking of?'
+#day_guess = gets.chomp.downcase
+#puts 'What number am I thinking of?'
+#number_guess = gets.chomp.to_i
+
+#if day_guess == programs_day_of_week && number_guess == programs_number
+#	puts 'Correct!'
+#elsif day_guess == programs_day_of_week
+#	puts 'Day of the Week Correct!'
+#elsif number_guess == programs_number
+#	puts 'Number Correct!'
+#else
+#	puts 'Incorrect!'
+#end
 
 # 4. One last time, ask again for a day of the week and a number, except
 #    this time only one of them needs to be correct to "win"! But if
 #    they don't guess either correctly, they "lose"!
+
+puts 'What day of the week am I thinking of?'
+day_guess = gets.chomp.downcase
+puts 'What number am I thinking of?'
+number_guess = gets.chomp.to_i
+
+if day_guess == programs_day_of_week || number_guess == programs_number
+	puts 'Win!'
+else
+	puts 'Lose!'
+end
 
 

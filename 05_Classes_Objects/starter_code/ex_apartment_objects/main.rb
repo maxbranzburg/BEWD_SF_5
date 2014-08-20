@@ -5,6 +5,7 @@
 # => Your job is to write the "Apartment", "Building" and "Person" classes.
 # => You can find those files in the 'lib' folder (or use the Sublime Text "Goto Anything" shortcut key!)
 
+# => Run this file on the command line, "ruby main.rb" and see what happens.
 # => Read the code below and use it to inform what variables and methods are necessary for each of the classes listed above.
 # => We've also provided a png file of the terminal output from the completed version. (This won't open in Sublime Text)
 # => Hint: Think before you code. Annotate code and comment out sections as you test different sections

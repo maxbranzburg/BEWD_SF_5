@@ -43,6 +43,21 @@ require 'lib/game'
 
 # put code here print a welcome message for your user
 
+def welcome_message
+	puts "Welcome to Object Oriented Secret Number!"
+end
+
+welcome_message
+
 # put code here ask the user for their name, and save it
+
+# def get_name
+# 	puts "What is your name?"
+# 	player_name = gets.chomp
+# end
+
+# get_name
+
+Game.new.check_num
 
 # put code here to create a new game, and start it
